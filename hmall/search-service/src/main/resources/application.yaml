@@ -1,0 +1,15 @@
+server:
+  port: 8087
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+  sentinel:
+    enabled: true # 开启feign对sentinel的支持
+hm:
+  swagger:
+    title: 搜索服务接口文档
+    package: com.hmall.search.controller
+  db:
+    database: hm-item
+    port: 3306
+    un: root
